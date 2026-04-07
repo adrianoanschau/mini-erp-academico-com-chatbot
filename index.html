@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-ERP Acadêmico</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <div class="erp-container">
+        <div class="erp-header">
+            Mini-ERP System v1.0
+        </div>
+        
+        <div id="chat-window">
+            <div class="msg system">
+                Bem-vindo ao sistema! <br><br>
+                <b>Menu Principal:</b><br>
+                1 - Vender<br>
+                2 - RH<br>
+                3 - Sair<br><br>
+                Digite o número da opção desejada:
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Digite um comando..." autocomplete="off">
+            <button onclick="enviarComando()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
